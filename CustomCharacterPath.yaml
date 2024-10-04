@@ -2,11 +2,11 @@
 # Example usage: python train.py --data custom_dataset.yaml
 
 # Path to the dataset (use absolute paths for your images)
-path: C:/Users/School/Desktop/aimmy/pistol 1v1 model/images  # dataset root dir
+path: /home/u224568/a/aimmytraindata/images  # dataset root dir
 
 # Train and validation image directories
-train: C:/Users/School/Desktop/aimmy/pistol 1v1 model/images/train  # absolute path for train images
-val: C:/Users/School/Desktop/aimmy/pistol 1v1 model/images/val  # absolute path for val images
+train: /home/u224568/a/aimmytraindata/images/train  # absolute path for train images
+val: /home/u224568/a/aimmytraindata/images/val  # absolute path for val images
 test:  # test images (optional)
 
 # Number of classes (only one class in your case)
